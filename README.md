@@ -5,7 +5,7 @@
 ---
 ## Description
 
-This is a PWA Text Editor built from starter code. It uses the [idb](https://www.npmjs.com/package/idb) package and deployed to [Heroku](https://heroku.com).
+This is a PWA Text Editor built from starter code. This application runs in the browser, but also functions offline. The user can create and retreive notes and code whether online or offline. It uses the [idb](https://www.npmjs.com/package/idb) package, [webpack](https://webpack.js.org/), [Babel](https://babeljs.io/), and deployed to [Heroku](https://heroku.com).
   
 
 ---
@@ -56,6 +56,8 @@ In order to create this application, I used the skills I have at the moment. I a
 
 - [idb](https://www.npmjs.com/package/idb)
 - [Heroku](https://heroku.com)
+- [webpack](https://webpack.js.org/)
+- [Babel](https://babeljs.io/)
 - Trilogy Education Services, LLC for the starter code, example code throughout the week 19 exercises, and example mock-up.
 - Chris Baird, my tutor
 
