@@ -5,7 +5,7 @@
 ---
 ## Description
 
-This is a PWA Text Editor built from starter code. This application runs in the browser, but also functions offline. The user can create and retreive notes and code whether online or offline. It uses the [idb](https://www.npmjs.com/package/idb) package, [webpack](https://webpack.js.org/), [Babel](https://babeljs.io/), and deployed to [Heroku](https://heroku.com).
+This is a PWA Text Editor built from starter code. This application runs in the browser, but also functions offline. The user can create and retreive notes and code whether online or offline. It uses IndexedDB  with the [idb](https://www.npmjs.com/package/idb) package, [webpack](https://webpack.js.org/), [Babel](https://babeljs.io/), and is deployed to [Heroku](https://heroku.com).
   
 
 ---
@@ -33,11 +33,26 @@ In order to use this application, you could clone the repo and run it in the ter
 
 In order to use this application: 
 
-1. Navigate to the [PWA Text Editor Deployed Application Link](). 
+1. Navigate to the [PWA Text Editor Deployed Application Link](https://immense-temple-52893.herokuapp.com/). 
 
 
-### Install Schema
-![PWA Text Editor Deployed Application Screenshot](/assets/1_schema.png)
+### Open deployed application
+![PWA Text Editor Open deployed application Screenshot](/assets/1_initial.png)
+
+### Add text in the deployed application
+![PWA Text Editor Add text in the deployed application Screenshot](/assets/2_add_text.png)
+
+### Install the application
+![PWA Text Editor Install Screenshot](/assets/3_install.png)
+
+### Install message for the application
+![PWA Text Editor Install Message Screenshot](/assets/4_install_message.png)
+
+### Installed application
+![PWA Text Editor Installed App Screenshot](/assets/5_app.png)
+
+### Desktop application
+![PWA Text Editor Desktop Application Screenshot](/assets/6_icon.png)
 
 
 ---
