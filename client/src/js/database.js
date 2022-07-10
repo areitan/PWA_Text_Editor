@@ -27,9 +27,9 @@ export const putDb = async (content) => {
 // TODO: Add logic for a method that gets all the content from the database. From Activity 28 src js database.js
 export const getDb = async () => {
   console.error('getDb not implemented');
-   const contactDb = await openDB('contact', 1);
-  const tx = contactDb.transaction('contact', 'readonly');
-  const store = tx.objectStore('contact');
+   const contactDb = await openDB('jate', 1);
+  const tx = contactDb.transaction('jate', 'readonly');
+  const store = tx.objectStore('jate');
 
   // Use the .getAll() method to get all data in the database.
   const request = store.getAll();
