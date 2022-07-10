@@ -25,7 +25,7 @@ This is a PWA Text Editor built from starter code. This application runs in the 
 In order to use this application, you could clone the repo and run it in the terminal using ```node server.js```. 
 
 - [PWA Text Editor Git Hub Repository](https://github.com/areitan/PWA_Text_Editor)
-- [PWA Text Editor Deployed Application Link]()
+- [PWA Text Editor Deployed Application Link](https://immense-temple-52893.herokuapp.com/)
 
 
 ---
