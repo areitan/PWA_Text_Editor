@@ -25,7 +25,8 @@ warmStrategyCache({
 });
 
 registerRoute(({ request }) => request.mode === 'navigate', pageCache),
-new StaleWhileRevalidate({
+new offlineFallback({
+  // TODO: Implement asset caching
   // Name of the cache storage.
   cacheName: 'asset-cache',
   plugins: [
@@ -36,5 +37,5 @@ new StaleWhileRevalidate({
   ],
 });
 
-// TODO: Implement asset caching
+
 registerRoute();
